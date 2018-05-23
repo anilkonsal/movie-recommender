@@ -1,0 +1,19 @@
+{
+  "name": "movie-recommend",
+  "version": "1.0.0",
+  "description": "Recommends movie based on genre and time",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Anil Konsal",
+  "license": "ISC",
+  "bin": {
+    "movie": "./index.js"
+  },
+  "dependencies": {
+    "jest": "^22.4.4",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.1"
+  }
+}
