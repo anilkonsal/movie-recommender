@@ -6,8 +6,6 @@ const formatter = require('./formatter')
 
 const [,, ...args] = process.argv
 
-// console.log(`${args}`)
-
 if (args.length < 1) {
   console.log('Noting provided')
   process.exit(1)
